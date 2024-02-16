@@ -73,13 +73,11 @@ your-project-name/
 │   │   ├── meta/
 │   │   │   └── index.html
 │   │   ├── footer.html
-│   │   ├── header.html
-│   │   └── mobile-menu.html
+│   │   └── header.html
 │   ├── css/
 │   │   ├── parts/
 │   │   │   ├── _footer.scss
-│   │   │   ├── _header.scss
-│   │   │   └── _mobile-menu.scss
+│   │   │   └── _header.scss
 │   │   ├── _buttons.scss
 │   │   ├── _fonts.scss
 │   │   ├── _main.scss
