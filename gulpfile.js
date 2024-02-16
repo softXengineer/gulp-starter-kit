@@ -151,11 +151,11 @@ function prodScripts() {
     `${options.paths.src.js}/**/*.js`,
   ])
     .pipe(uglify())
-    .pipe(
-      rename(function (path) {
-        path.basename += ".min";
-      })
-    )
+    // .pipe(
+    //   rename(function (path) {
+    //     path.basename += ".min";
+    //   })
+    // )
     .pipe(dest(options.paths.build.js));
 }
 
