@@ -76,13 +76,14 @@ your-project-name/
 │   │   ├── header.html
 │   │   └── mobile-menu.html
 │   ├── css/
+│   │   ├── parts/
+│   │   │   ├── _footer.scss
+│   │   │   ├── _header.scss
+│   │   │   └── _mobile-menu.scss
 │   │   ├── _buttons.scss
 │   │   ├── _fonts.scss
 │   │   ├── _main.scss
 │   │   ├── _variables.scss
-│   │   ├── footer.scss
-│   │   ├── header.scss
-│   │   ├── mobile-menu.scss
 │   │   └── style.scss
 │   ├── fonts/
 │   │   └── your-fonts.woff
